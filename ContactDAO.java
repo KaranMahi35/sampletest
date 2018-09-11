@@ -1,0 +1,20 @@
+package com.example.dao;
+
+import java.util.List;
+
+import com.example.model.Contact;
+
+public interface ContactDAO {
+	
+	 
+    public void saveOrUpdate(Contact contact);
+     
+    public void delete(int contactId);
+     
+    public Contact get(int contactId);
+     
+    public List<Contact> list();
+
+	public void save(Contact contact);
+
+}
