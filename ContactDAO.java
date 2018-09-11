@@ -15,6 +15,6 @@ public interface ContactDAO {
      
     public List<Contact> list();
 
-	public void save(Contact contact);
+	//public void save(Contact contact);
 
 }
